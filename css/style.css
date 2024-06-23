@@ -1,0 +1,401 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+}
+
+header {
+  height: 720px;
+  background: url(../img/bg.png), #019851;
+  background-size: cover;
+  background-position: center 0;
+  background-repeat: no-repeat;
+}
+header .container_logo_menu {
+  padding: 25px 0;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.4);
+}
+header .container_logo_menu .logo a {
+  display: block;
+}
+header .container_logo_menu .logo a img {
+  vertical-align: top;
+}
+header .container_logo_menu .menu {
+  text-align: right;
+  line-height: 50px;
+}
+header .container_logo_menu .menu a {
+  color: #fff;
+  margin-left: 60px;
+  font-size: 18px;
+  text-decoration: none;
+}
+header .container_logo_menu .menu a:hover {
+  text-shadow: 3px 3px 5px rgba(25, 25, 25, 0.562);
+  text-decoration: underline wavy;
+}
+header .text {
+  color: #fff;
+  text-align: center;
+  margin: 200px 0;
+}
+header .text .first_line,
+header .text .second_line {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 100;
+}
+header .text .first_line {
+  font-size: 35px;
+  list-style: 35px;
+  margin-bottom: 30px;
+}
+header .text .second_line {
+  font-size: 25px;
+  list-style: 25px;
+  margin-bottom: 60px;
+}
+header .text .container_btns a {
+  border-radius: 4px;
+  border: 2px solid #fff;
+  color: #fff;
+  padding: 12px 0;
+  font-weight: 600;
+  width: 235px;
+  display: inline-block;
+  text-align: center;
+  margin: 0 10px;
+  text-decoration: none;
+}
+header .text .container_btns a:hover {
+  text-decoration: none;
+  background: #fff;
+  color: #4f4f4f;
+}
+
+.containers .character {
+  padding: 60px 0;
+}
+.containers .character .title {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 300;
+  font-size: 32px;
+  color: #000;
+  margin-bottom: 10px;
+}
+.containers .character .character {
+  text-align: center;
+}
+.containers .character .character .icon {
+  vertical-align: top;
+  margin-bottom: 35px;
+  width: 120px;
+}
+.containers .character .character .first_line {
+  font-weight: 700;
+  margin-bottom: 30px;
+  font-size: 20px;
+}
+.containers .character .character .paragraph {
+  margin-bottom: 30px;
+  line-height: 28px;
+}
+.containers .photos {
+  margin-bottom: 70px;
+}
+.containers .photos .photo {
+  margin-bottom: 120px;
+}
+.containers .photos .photo .thumb img {
+  border-radius: 5px;
+  vertical-align: top;
+}
+.containers .photos .photo .title {
+  margin-top: 70px;
+  margin-bottom: 40px;
+  font-size: 32px;
+  line-height: 32px;
+  font-weight: 300;
+}
+.containers .photos .photo .title.blue {
+  color: #4facd3;
+}
+.containers .photos .photo .title.orange {
+  color: #ddb146;
+}
+.containers .photos .photo .paragraph {
+  line-height: 28px;
+}
+.containers .photos .photo .right {
+  text-align: right;
+}
+.containers .clients {
+  background: #292c2b;
+  padding: 40px 0;
+}
+.containers .clients .title {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 300;
+  font-size: 32px;
+  color: #fff;
+  margin-bottom: 40px;
+}
+.containers .clients .client {
+  color: #fff;
+  text-align: center;
+}
+.containers .clients .client a {
+  display: block;
+}
+.containers .clients .client a img {
+  width: 60px;
+}
+.containers .costs {
+  background: url(../img/cost_bg.png), #727171;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding: 70px 0;
+}
+.containers .costs .title {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 300;
+  font-size: 32pz;
+  color: #fff;
+  margin-bottom: 70px;
+}
+.containers .costs .plan {
+  background: #fff;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 50px 0;
+  box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.35);
+}
+.containers .costs .plan .name {
+  font-size: 32px;
+  line-height: 32px;
+  font-weight: 300;
+  margin-bottom: 30px;
+}
+.containers .costs .plan .cost {
+  font-weight: 300;
+  font-size: 48px;
+  margin-bottom: 30px;
+}
+.containers .costs .plan .characters {
+  list-style: none;
+  padding: 0 20px;
+  margin-bottom: 50px;
+}
+.containers .costs .plan .characters li {
+  font-size: 18px;
+  padding: 15px 0;
+  border-bottom: 1px solid #dedede;
+}
+.containers .costs .plan .btn {
+  width: 70%;
+  padding: 15px 0;
+  text-align: center;
+  display: inline-block;
+  border-radius: 100px;
+}
+.containers .costs .plan.green .name,
+.containers .costs .plan.green .cost {
+  color: #86b773;
+}
+.containers .costs .plan.green .btn {
+  color: #86b773;
+  border: 2px solid #86b773;
+}
+.containers .costs .plan.green .btn:hover {
+  background: #86b773;
+  color: #fff;
+}
+.containers .costs .plan.active {
+  background: #4c8dce;
+  color: #fff;
+}
+.containers .costs .plan.active .btn {
+  color: #fff;
+  border: 2px solid #fff;
+}
+.containers .costs .plan.active .btn:hover {
+  background: #fff;
+  color: #4c8dce;
+}
+.containers .costs .plan.orange .name,
+.containers .costs .plan.orange .cost {
+  color: #ddb146;
+}
+.containers .costs .plan.orange .btn {
+  color: #ddb146;
+  border: 2px solid #ddb146;
+}
+.containers .costs .plan.orange .btn:hover {
+  background: #ddb146;
+  color: #fff;
+}
+.containers .reviews {
+  padding: 70px 0;
+}
+.containers .reviews .title {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 300;
+  font-size: 32px;
+  color: #4facd3;
+  margin-bottom: 70px;
+}
+.containers .reviews .cliente {
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+.containers .reviews .cliente .photo {
+  width: 20%;
+  float: left;
+  text-align: right;
+}
+.containers .reviews .cliente .photo img {
+  max-width: 130px;
+  width: 100%;
+  vertical-align: top;
+  border-radius: 100%;
+}
+.containers .reviews .cliente .review {
+  float: left;
+  width: 80%;
+  padding: 0 30px;
+  margin-top: 20px;
+}
+.containers .reviews .cliente .review .text {
+  font-size: 18px;
+  line-height: 28px;
+  margin-bottom: 10px;
+}
+.containers .reviews .cliente .review .name {
+  color: #ddb146;
+  font-size: 14px;
+}
+.containers .reviews .cliente.right .photo {
+  float: right;
+  text-align: left;
+}
+.containers .reviews .cliente.right .review {
+  float: right;
+  text-align: right;
+}
+
+footer .direction {
+  background: #3c4045;
+  padding: 30px 0;
+  color: #fff;
+}
+footer .direction .title {
+  font-size: 32px;
+  line-height: 32px;
+  font-weight: 300;
+  margin-bottom: 30px;
+}
+footer .direction .street,
+footer .direction .phone,
+footer .direction .mail {
+  margin-bottom: 10px;
+}
+footer .direction .logo img {
+  margin-top: 50px;
+}
+footer .social {
+  text-align: center;
+  padding: 10px 0;
+}
+footer .social a {
+  padding: 10px;
+  display: inline-block;
+  margin: 0 20px;
+  width: 50px;
+  font-size: 22px;
+  color: #fff;
+  background: #000;
+  border-radius: 100px;
+}
+footer .social a:hover {
+  text-decoration: none;
+}
+footer .social a.facebook {
+  background: #3b5998;
+}
+footer .social a.twitter {
+  background: #55acee;
+}
+footer .social a.youtube {
+  background: #cd201f;
+}
+
+@media screen and (max-width: 992px) {
+  header .container_logo_menu .logo {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  header .container_logo_menu .menu {
+    text-align: center;
+  }
+  header .container_logo_menu .menu a {
+    margin: 0 20px;
+  }
+  header .text {
+    margin: 100px 0;
+    font-size: 16px;
+  }
+  header .text .first_line {
+    font-size: 1.5em;
+  }
+  header .text .second_line {
+    font-size: 1.3em;
+  }
+  header .text .container_btns a {
+    margin-bottom: 18px;
+  }
+  .containers .photos .photo {
+    margin-bottom: 50px;
+  }
+  .containers .photos .photo .title,
+  .containers .photos .photo .paragraph {
+    margin-top: 0;
+    margin-left: 150px;
+  }
+  .containers .clients .client {
+    margin-bottom: 40px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .containers .characters .character {
+    margin-bottom: 40px;
+  }
+  .containers .photos .photo {
+    text-align: center;
+  }
+  .containers .photos .photo .text .title,
+  .containers .photos .photo .text .paragraph {
+    margin-top: 0;
+    margin: 10px;
+    text-align: center;
+  }
+  .containers .costs .cost {
+    margin-bottom: 10px;
+  }
+  footer .direction {
+    text-align: center;
+  }
+  footer .direction .logo img {
+    margin-top: 20px;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
